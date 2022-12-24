@@ -4,7 +4,7 @@
   --color-body: #b6cbce;
   --color-heading: #eef3db;
   --color-base: #033f47;
-  --color-base2: #022a30;
+  --color-base2: #488c96;
   --color-brand: #e0f780;
   --color-brand2: #deff58;
   --sidbar-width: 240px;
@@ -80,8 +80,8 @@ img {
 }
 
 /* NAVBAR */
- .navbar {
-  background-color: var(--color-base);
+.navbar {
+  background-color: var(--color-base2);
 }
 
 .navbar .nav-link {
@@ -101,7 +101,7 @@ img {
   .navbar {
     min-height: 100vh;
     width: var(--sidbar-width);
-    background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.7)),
+    background: linear-gradient(rgba(31, 152, 168, 0.8), rgba(1, 96, 109, 0.7)),
       url(../Assets/images/sidebar-img.jpg);
     background-size: cover;
     background-position: center;
@@ -166,12 +166,14 @@ img {
 .card-custom:hover .card-custom-image img {
   transform: scale(1.1);
 }
-.service {
+.service,
+.card-custom,
+.bg-base {
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(2, 42, 48, 0.37);
   backdrop-filter: blur(14.5px);
   -webkit-backdrop-filter: blur(14.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  /* color: rgb(2, 42, 48); */
+  color: rgb(2, 42, 48);
 }
